@@ -9,11 +9,64 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60205c3f-b30c-4052-85c1-4d45fffbab61" name="Changes" comment="init -addTomcat" />
+    <list default="true" id="60205c3f-b30c-4052-85c1-4d45fffbab61" name="Changes" comment="init -addTomcat">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c4aab20b-a189-4fcf-95c2-c19ac1653576.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c4aab20b-a189-4fcf-95c2-c19ac1653576/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c4aab20b-a189-4fcf-95c2-c19ac1653576/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c4aab20b-a189-4fcf-95c2-c19ac1653576/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c4aab20b-a189-4fcf-95c2-c19ac1653576/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/mapper/AdminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/mapper/BrandMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/pojo/Administrator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/pojo/Brand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/service/AdministratorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/service/BrandService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/service/impl/AdministratorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/util/ResultJson.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/util/SqlSessionUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/web/AddServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/web/SelectAllServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/web/SelectByIdServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/web/servlet/BaseServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/web/servlet/BrandServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/web/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/store/dongji/mapper/AdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/store/dongji/mapper/BrandMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/addBrand.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/brand.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/hello.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icon.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/indexxx.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/update.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/xadmin.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/xadmin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -24,6 +77,9 @@
     <option name="FILTER_INFO" value="true" />
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -41,19 +97,45 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
+    "last_opened_file_path": "D:/code/dongjibookshop/src/main/resources/store/dongji/mapper",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.29425287",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.javacompiler",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\dongjibookshop\src\main\resources\store\dongji\mapper" />
+      <recent name="D:\code\dongjibookshop\src\main\webapp" />
+      <recent name="D:\code\dongjibookshop\src\main\webapp\WEB-INF" />
+      <recent name="D:\code\dongjibookshop\src\main\java\store\dongji\pojo" />
+      <recent name="D:\code\dongjibookshop\src\main\webapp\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\dongjibookshop\src\main\webapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="store.dongji.util" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.35" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.35" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
@@ -153,6 +235,7 @@
       <option name="presentableId" value="Default" />
       <updated>1699603095974</updated>
       <workItem from="1699603097592" duration="1861000" />
+      <workItem from="1699757271938" duration="26618000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1699604383044</created>
