@@ -9,48 +9,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="60205c3f-b30c-4052-85c1-4d45fffbab61" name="Changes" comment="init -addTomcat">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c4aab20b-a189-4fcf-95c2-c19ac1653576.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c4aab20b-a189-4fcf-95c2-c19ac1653576/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c4aab20b-a189-4fcf-95c2-c19ac1653576/storage_v2/_src_/schema/mysql.osA4Bg.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c4aab20b-a189-4fcf-95c2-c19ac1653576/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources/c4aab20b-a189-4fcf-95c2-c19ac1653576/storage_v2/_src_/schema/sys.zb4BAA.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/WEB-INF/web.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/mapper/AdminMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/mapper/BrandMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/pojo/Administrator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/pojo/Brand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/service/AdministratorService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/service/BrandService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/service/impl/AdministratorServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/util/ResultJson.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/util/SqlSessionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/web/AddServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/web/SelectAllServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/web/SelectByIdServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/web/servlet/BaseServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/web/servlet/BrandServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/web/servlet/LoginServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/logback.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/store/dongji/mapper/AdminMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/store/dongji/mapper/BrandMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/addBrand.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/brand.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/hello.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/images/icon.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/indexxx.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/update.jsp" afterDir="false" />
+    <list default="true" id="60205c3f-b30c-4052-85c1-4d45fffbab61" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/dongji/filter/LoginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c4aab20b-a189-4fcf-95c2-c19ac1653576.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/c4aab20b-a189-4fcf-95c2-c19ac1653576.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/dongji/mapper/AdminMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/dongji/mapper/AdministratorMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/dongji/pojo/Administrator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/dongji/pojo/Administrator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/dongji/service/AdministratorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/dongji/service/AdministratorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/dongji/service/impl/AdministratorServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/dongji/service/impl/AdministratorServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/dongji/util/SqlSessionUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/dongji/util/SqlSessionUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/dongji/web/servlet/BaseServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/dongji/web/servlet/BaseServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/dongji/web/servlet/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/dongji/web/servlet/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/store/dongji/mapper/AdminMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/store/dongji/mapper/AdministratorMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/admin-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/admin-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/font.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/font.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/css/theme1.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/theme1.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/css/xadmin.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/css/xadmin.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +82,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "D:/code/dongjibookshop/src/main/resources/store/dongji/mapper",
+    "last_opened_file_path": "D:/code/dongjibookshop/src/main/webapp/WEB-INF",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -123,11 +102,11 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\dongjibookshop\src\main\webapp\WEB-INF" />
+      <recent name="D:\code\dongjibookshop\src\main\webapp\images" />
       <recent name="D:\code\dongjibookshop\src\main\resources\store\dongji\mapper" />
       <recent name="D:\code\dongjibookshop\src\main\webapp" />
-      <recent name="D:\code\dongjibookshop\src\main\webapp\WEB-INF" />
       <recent name="D:\code\dongjibookshop\src\main\java\store\dongji\pojo" />
-      <recent name="D:\code\dongjibookshop\src\main\webapp\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\code\dongjibookshop\src\main\webapp" />
@@ -235,7 +214,12 @@
       <option name="presentableId" value="Default" />
       <updated>1699603095974</updated>
       <workItem from="1699603097592" duration="1861000" />
-      <workItem from="1699757271938" duration="26618000" />
+      <workItem from="1699757271938" duration="27196000" />
+      <workItem from="1699830579522" duration="9006000" />
+      <workItem from="1700317528256" duration="283000" />
+      <workItem from="1700379831460" duration="381000" />
+      <workItem from="1700383168369" duration="53000" />
+      <workItem from="1701004424285" duration="5804000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1699604383044</created>
@@ -251,7 +235,14 @@
       <option name="project" value="LOCAL" />
       <updated>1699604561420</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="完成了第一个管理员登录功能；&#10;搭建好了基本的环境，MyBatis，三层框架；">
+      <created>1699806316885</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1699806316885</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,6 +262,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="init -addTomcat" />
-    <option name="LAST_COMMIT_MESSAGE" value="init -addTomcat" />
+    <MESSAGE value="完成了第一个管理员登录功能；&#10;搭建好了基本的环境，MyBatis，三层框架；" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成了第一个管理员登录功能；&#10;搭建好了基本的环境，MyBatis，三层框架；" />
   </component>
 </project>

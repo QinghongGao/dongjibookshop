@@ -7,6 +7,10 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 import java.io.IOException;
 import java.io.InputStream;
 
+/**
+ * 1.减少代码重复
+ * 2.使sqlSessionFactory只创建一次，减少消耗
+ */
 public class SqlSessionUtils {
 
     private static SqlSessionFactory sqlSessionFactory;

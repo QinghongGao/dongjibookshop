@@ -2,7 +2,7 @@ package store.dongji.pojo;
 
 public class Administrator {
     private Integer id;
-    private String administratorname;
+    private String administratorName;
     private String password;
     private String nickname;
     private Integer status;
@@ -15,12 +15,12 @@ public class Administrator {
         this.id = id;
     }
 
-    public String getAdministratorname() {
-        return administratorname;
+    public String getAdministratorName() {
+        return administratorName;
     }
 
-    public void setAdministratorname(String administratorname) {
-        this.administratorname = administratorname;
+    public void setAdministratorName(String administratorName) {
+        this.administratorName = administratorName;
     }
 
     public String getPassword() {
