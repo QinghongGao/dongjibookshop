@@ -7,29 +7,112 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi" />
     <meta http-equiv="Cache-Control" content="no-siteapp" />
-    <link rel="stylesheet" href="css/font.css">
-    <link rel="stylesheet" href="css/login.css">
-	  <link rel="stylesheet" href="css/xadmin.css">
+<!--    <link rel="stylesheet" href="css/font.css">-->
+<!--    <link rel="stylesheet" href="css/login.css">-->
+<!--	  <link rel="stylesheet" href="css/xadmin.css">-->
+    <link rel="stylesheet" href="css/mylogin.css">
+    <link rel="stylesheet" href="lib/layui/css/layui.css">
     <script type="text/javascript" src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
     <script src="lib/layui/layui.js" charset="utf-8"></script>
     <!--[if lt IE 9]>
       <script src="https://cdn.staticfile.org/html5shiv/r29/html5.min.js"></script>
       <script src="https://cdn.staticfile.org/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+    <style>
+        .login-container{width: 320px; margin: 21px auto 0;}
+        .demo-login-other .layui-icon{position: relative; display: inline-block; margin: 0 2px; top: 2px; font-size: 26px;}
+
+    </style>
 </head>
-<body class="login-bg">
-    
-    <div class="login layui-anim layui-anim-up">
-        <div class="message">东吉书店-登录</div>
-        <div id="darkbannerwrap"></div>
-        
-        <form method="post" class="layui-form" >
-            <input name="administratorName" placeholder="用户名"  type="text" lay-verify="required" class="layui-input" >
-            <hr class="hr15">
-            <input name="password" lay-verify="required" placeholder="密码"  type="password" class="layui-input">
-            <hr class="hr15">
-            <input value="登录" lay-submit lay-filter="login" style="width:100%;" type="submit">
-            <hr class="hr20" >
+<body>
+    <!--layui-anim layui-anim-up：设置加载页面后向上弹出登录框动画-->
+    <div class="layui-anim layui-anim-up">
+        <!--通过 class="layui-form" 定义一个表单域，通常设置在<form>标签上， 或普通<div> 标签亦可-->
+        <form class="layui-form">
+            <!--自己定义的让登录表单居中-->
+            <div class="login-container">
+                <!--通过 class="layui-form-item" 定义一个块级元素的表单项容器-->
+                <div class="layui-form-item">
+                    <!-- 1.输入框点缀是指给普通输入框附加其他元素来进行动静态修饰，其结构为：容器(前缀-输入框-后缀)。
+                         2.前缀和后缀结构：class="layui-input-wrap；前置和后置结构：class="layui-input-group"
+                         3.前缀和后缀表现在输入框内部的左右；前置和后置表现在输入框外部的左右
+                         4.本例只使用了前缀(一个账户的图标)layui-input-prefix -->
+                    <div class="layui-input-wrap">
+                        <div class="layui-input-prefix">
+                            <i class="layui-icon layui-icon-username"></i>
+                        </div>
+                        <!--1.lay-verify="required"：设置为必填项
+                            2. lay-reqtext="请填写用户名"：设置必填项（lay-verify="required"）的默认提示文本
+                            3.autocomplete="off"：禁用自动填充功能/禁止浏览器记住输入字段的值
+                            4.lay-affix="clear"：内容清除，（输入内容后，可以点击显示出的x来清除输入内容）
+                              （输入框动态点缀，<input type="text">元素 私有属性）
+                              （该功能允许对输入框内容进行相关动态操作。通过对输入框元素设置 lay-affix 属性来开启动态点缀。） -->
+                        <input type="text"
+                               name="administratorName"
+                               value=""
+                               lay-verify="required"
+                               placeholder="用户名"
+                               lay-reqtext="请填写用户名"
+                               autocomplete="off"
+                               class="layui-input"
+                               lay-affix="clear">
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <div class="layui-input-wrap">
+                        <div class="layui-input-prefix">
+                            <i class="layui-icon layui-icon-password"></i>
+                        </div>
+
+                        <input type="password"
+                               name="password"
+                               value=""
+                               lay-verify="required"
+                               placeholder="密   码"
+                               lay-reqtext="请填写密码"
+                               autocomplete="off"
+                               class="layui-input"
+                               lay-affix="eye">
+                    </div>
+                </div>
+
+                <div class="layui-form-item">
+                    <!--栅格布局，采用 layui-row 来定义行-->
+                    <div class="layui-row">
+                        <div class="layui-col-xs7">
+                            <div class="layui-input-wrap">
+                                <div class="layui-input-prefix">
+                                    <i class="layui-icon layui-icon-vercode"></i>
+                                </div>
+
+                                <input type="text"
+                                       name="captcha"
+                                       value=""
+                                       lay-verify="required"
+                                       placeholder="验证码"
+                                       lay-reqtext="请填写验证码"
+                                       autocomplete="off"
+                                       class="layui-input"
+                                       lay-affix="clear">
+                            </div>
+                        </div>
+                        <div class="layui-col-xs5">
+                            <div style="margin-left: 10px;">
+                                <img src="https://www.oschina.net/action/user/captcha"
+                                     onclick="this.src='https://www.oschina.net/action/user/captcha?t='+ new Date().getTime();">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <input type="checkbox" name="remember" lay-skin="primary" title="记住密码">
+<!--                    <a href="#forget" style="float: right; margin-top: 7px;">忘记密码？</a>-->
+                </div>
+                <div class="layui-form-item">
+                    <button class="layui-btn layui-btn-fluid" lay-submit lay-filter="login">登录</button>
+                </div>
+            </div>
         </form>
     </div>
 
@@ -61,7 +144,7 @@
                           console.log(e);
                       }
                   });
-                return false;
+                  return false;
               });
             });
         })

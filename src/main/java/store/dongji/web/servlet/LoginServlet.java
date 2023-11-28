@@ -14,16 +14,11 @@ import java.io.IOException;
 public class LoginServlet extends BaseServlet{
     private final AdministratorService administratorService = new AdministratorServiceImpl();
     public void login(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        //TODO 设置Filter解决编码问题
-//        req.setCharacterEncoding("UTF-8");
-//        resp.setCharacterEncoding("UTF-8");
-
-
+        //获取前端输入的账号密码
         Administrator source = new Administrator();
         source.setAdministratorName(req.getParameter("administratorName"));
         source.setPassword(req.getParameter("password"));
-        System.out.println("账号："+req.getParameter("administratorName")+"密码："+req.getParameter("password"));
-
+        //获取数据库中查询的管理员账户
         Administrator result = administratorService.queryByAdministratorNameAndPassword(source);
 
         //查询到的管理员不为空
